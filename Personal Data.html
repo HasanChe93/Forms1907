@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Data</title>
+</head>
+
+<!-- <body style="border:2px solid;width:500px;margin-top:50px;padding-bottom: 50px; padding-top:-60px;padding-left: 15px;"> -->
+    <!-- <h2>Personal Data</h2> -->
+    <fieldset style="width:500px ;">
+        <legend> <strong>ersonal Data</legend>
+      
+    <form>
+        <label >Salutation</label> <br>
+        <select name="Greatings" id="Salutation">
+          <option value="None">--None--</option>
+         
+        </select>
+        <br><br>
+        
+      </form>
+      <form >
+        <label>First name:</label>
+        <input type="text" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text"  name="lname"><br><br>
+        
+      </form>
+      <!-- gender question -->
+      <form action="/action_page.php">
+        Gender: 
+        <input type="radio"  name="Gender" value="Male">
+        <label for="html">Male</label>
+        <input type="radio"  name="gender" value="Female">
+        <label for="css">Female</label>
+        <br>
+         <br>
+         <label>Email:</label>
+         <input type="text" name="Email"><br><br>
+      <form>
+        <label for="birthday">Birthday:</label>
+        <input type="date"  name="birthday">
+        <input type="submit">
+      </form> <br>
+      <label>Address:</label><br>
+         <input type="text" name="Address" style="width: 200px;height:60px  ;">
+        </fieldset>
+</body>
+</html>
